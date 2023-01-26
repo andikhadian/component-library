@@ -26,4 +26,5 @@ export const Default = Template.bind({});
 Default.args = {
   placeholder: 'Placeholder content',
   type: 'text',
+  disabled: false,
 };
