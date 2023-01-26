@@ -1,9 +1,9 @@
 import React, { PropsWithChildren } from 'react';
-import { useUniqueID } from '../utils/useUniqueID';
+import { useUniqueID } from '../hooks/useUniqueID';
 import { FieldContext } from './FieldContext';
 import { Input } from './Input';
-import { Label } from './Label';
-import { TextArea } from './Textarea';
+import { Label } from './Label/Label';
+import { TextArea } from './Textarea/Textarea';
 
 interface FieldComposition {
   Label: typeof Label;

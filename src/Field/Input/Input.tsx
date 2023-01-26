@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { FieldContext } from './FieldContext';
+import { FieldContext } from '../FieldContext';
 import { StyledInput } from './styles';
 
 export const Input = React.forwardRef<

@@ -1,17 +1,11 @@
 import { transparentize } from 'polished';
 import styled from 'styled-components';
 import {
-  DISABLED_OPACITY,
-  PRIMARY_COLOR,
-  SECONDARY_COLOR,
   SECONDARY_TEXT_COLOR,
-} from '../utils/styles';
-import { TextareaProps } from './Textarea';
-
-export const StyledLabel = styled.label`
-  font-weight: 500;
-  margin-bottom: 0.4rem;
-`;
+  SECONDARY_COLOR,
+  PRIMARY_COLOR,
+  DISABLED_OPACITY,
+} from '../../constants/styles';
 
 export const StyledInput = styled.input`
   display: block;
@@ -36,10 +30,4 @@ export const StyledInput = styled.input`
     background-color: ${SECONDARY_COLOR};
     opacity: ${DISABLED_OPACITY};
   }
-`;
-
-export const StyledTextarea = styled(StyledInput as 'textarea').attrs({
-  as: 'textarea',
-})<TextareaProps>`
-  resize: ${(p) => !p.isResizable && 'none'};
 `;

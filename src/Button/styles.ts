@@ -8,7 +8,7 @@ import {
   PRIMARY_TEXT_COLOR,
   SECONDARY_COLOR,
   SECONDARY_TEXT_COLOR,
-} from '../utils/styles';
+} from '../constants/styles';
 import { ButtonProps } from './Button';
 
 const colorStyles = (p: ButtonProps) => {
