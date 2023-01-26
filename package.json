@@ -55,7 +55,8 @@
     "styled-components": ">=5.3.6"
   },
   "dependencies": {
-    "styled-components": "^5.3.6",
-    "polished": "^4.2.2"
+    "polished": "^4.2.2",
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.6"
   }
 }
