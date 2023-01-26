@@ -1,15 +1,33 @@
 import React from 'react';
+import { StyledButton } from './styles';
 
-type Props = React.ComponentPropsWithoutRef<'button'>;
-
-export const Button = React.forwardRef<HTMLButtonElement, Props>(
-  ({ children, ...props }, ref) => {
+export interface ButtonProps extends React.ComponentPropsWithoutRef<'button'> {
+  children: React.ReactNode;
+  variant?: 'primary' | 'secondary' | 'danger';
+  size?: 'small' | 'medium' | 'large';
+  isFullWidth?: boolean;
+}
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ children, variant, size, isFullWidth, ...props }, ref) => {
     return (
-      <button ref={ref} type="button" {...props}>
+      <StyledButton
+        ref={ref}
+        type="button"
+        variant={variant}
+        size={size}
+        isFullWidth={isFullWidth}
+        {...props}
+      >
         {children}
-      </button>
+      </StyledButton>
     );
   }
 );
+
+Button.defaultProps = {
+  variant: 'secondary',
+  size: 'medium',
+  isFullWidth: false,
+};
 
 Button.displayName = 'Button';
