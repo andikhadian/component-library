@@ -34,7 +34,7 @@ const colorStyles = (p: ButtonProps) => {
 
     &:focus-visible {
       border-color: ${color};
-      box-shadow: 0 0 0 0 0.2rem ${transparentize(0.45, backgroundColor)};
+      box-shadow: 0 0 0 0.2rem ${transparentize(0.45, backgroundColor)};
     }
   `;
 };
