@@ -79,6 +79,9 @@
     "react-dom": ">=16.12.0",
     "styled-components": ">=5.3.6"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
     "nanoid": "^3.3.4",
