@@ -62,7 +62,7 @@ For more thorough examples and the API details visit the [storybook](https://com
 
 ## 🤝Contributing
 
-Contributions, ideas and PR's are welcome!. Please read the [guidelines](/CONTRIBUTING.md) for more details.
+Contributions, ideas and PR's are welcome!
 
 1. [Fork it](https://github.com/andikhadian/component-library/fork)
 2. Create your feature branch (`git checkout -b new-feature`)
