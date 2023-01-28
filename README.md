@@ -22,10 +22,21 @@ or
 
 npm install @andikhadian/component-library
 ```
+Run storybook
+
+```sh
+npm run storybook
+```
+
+Run the Unit tests
+
+```sh
+npm run test
+```
 
 ## ☕ Usage
 
-```sh
+```ts
   import { Button } from "@andikhadian/component-library";
 
   const App = () => {
@@ -48,12 +59,6 @@ npm install @andikhadian/component-library
 ## 🍫 Examples & Documentation
 
 For more thorough examples and the API details visit the [storybook](https://component-library-andikhadev.vercel.app)
-
-To run the Unit tests
-
-```sh
-npm run test
-```
 
 ## 🤝Contributing
 
