@@ -1,6 +1,6 @@
 # React Component Library
 
-[Explore the Components](https://react-creme.vercel.app/)
+[Explore the Components](https://component-library-andikhadev.vercel.app)
 
 <h2>Table of Contents</h2>
 
@@ -47,7 +47,7 @@ npm install @andikhadian/component-library
 
 ## 🍫 Examples & Documentation
 
-For more thorough examples and the API details visit the [main site](https://react-creme.vercel.app)
+For more thorough examples and the API details visit the [storybook](https://component-library-andikhadev.vercel.app)
 
 To run the Unit tests
 
