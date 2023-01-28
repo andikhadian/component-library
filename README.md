@@ -36,7 +36,7 @@ npm run test
 
 ## ☕ Usage
 
-```ts
+```tsx
   import { Button } from "@andikhadian/component-library";
 
   const App = () => {
